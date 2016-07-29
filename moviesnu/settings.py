@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')x=bd$n%n(s37n))b@7riinm__k2(#+lot3uwgs5*n@ch9h0c&'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -57,7 +57,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'moviesnu.urls'
 LOGIN_REDIRECT_URL = '/'
 SOCIAL_AUTH_FACEBOOK_KEY =262349200788361
-SOCIAL_AUTH_FACEBOOK_SECRET ='65a4b6a2de0e38b9d3f8d2d11d1e54f2'
+SOCIAL_AUTH_FACEBOOK_SECRET =''
 
 
 TEMPLATES = [
@@ -108,7 +108,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'moviesnu',
         'USER':'root',
-        'PASSWORD':'mirrors',
+        'PASSWORD':'',
         'PORT':'3306',
     }
 }
